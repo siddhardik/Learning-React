@@ -1,0 +1,39 @@
+To install React , First install Node Js
+
+then in command Prompt  write ->  npm i -g create-react-app  
+
+// To create react app  - > create-react-app  app_name
+// For VS Code Terminal -> npx create-react-app app_name
+// to Run react-app => npm start
+
+JavaScript Libraries = > VUE,  React , Jquery
+
+// We can create website user interface by html css And JavaScript but later to change somewhere, 
+it would be 
+complex   due to poor folder structure and huge number of codes
+// Use JavaScript Libraries , Above Things are easier  code will be easier than prior.
+
+// Benifits Of JavaScript Library
+
+1] Well Document structure
+2] Reusibility Of Code
+3] Single Page Application
+
+Loader will be loaded at once for single page application
+ Will be requested to change A specific Portion that to be needed 
+
+ Framework -- Maximum Functionality is Predefined which will be used to craete website 
+ Example => Angular Framework , Which was developed by Google
+
+ Library --- We have to write Custom Functionality for each
+ Example => React Library , Which Was developed by Facebook
+
+ Folder => node_modules - All other Javascript libraries's Code 
+ Pulic - photo video audio fabicon all are here
+ Package.json => All dependecies And Project Details
+ Lock.json => Used Libraray Tree
+ src=> All Custom Code We will write here
+ 
+
+
+
