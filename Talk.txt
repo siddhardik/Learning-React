@@ -34,6 +34,15 @@ Loader will be loaded at once for single page application
  Lock.json => Used Libraray Tree
  src=> All Custom Code We will write here
  
+ What is JavaSCript Module?
+ Its A special type of file Which has an Access to other files' data.
+
+ import keyword is used in Module file
+
+ component import Name And call should be capital
+
+import ShoePart from './Footer.js';   // Import
+<ShoePart/>  // Calling
 
 
 
