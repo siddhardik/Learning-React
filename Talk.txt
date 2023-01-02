@@ -82,6 +82,15 @@ Use Image in website via public folder  <li> <a href="#"><img src="logo192.png" 
                </Routes>
                </BrowserRouter> 
 
+if we use <a> Tag then Loader in website will be loaded per page's request.
+
+use link tag 
+We can not directly use link tag outside BrowserRouter 
+
+BrowserRouter as BR "In this way we short "
+
+use className instead of class its raect rule  .Otherwise you will se  error on browser console 
+
 
 
 
