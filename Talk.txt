@@ -44,5 +44,49 @@ Loader will be loaded at once for single page application
 import ShoePart from './Footer.js';   // Import
 <ShoePart/>  // Calling
 
+React has a default Module Which name is index.js
+
+// To Install router
+npm install react-router-dom
+ <Route path="/">
+                    <h1>Welcome To HomePage</h1>
+   </Route>
+
+Here path is Property in React Not Attribute
+
+In react-router-dom v6, "Switch" is replaced by routes "Routes".
+                
+exact also a property
+exact   or exact="true"  are same
+
+If route is of two words or more write hyphen   word-word-word
+
+import <Navbar> from"./components/Navbar/Navbar";
+first letter of < > Should be in capital.  [ Inside index.js]
+
+any thing inside public folder will be accesible directly via url
+http://localhost:3000/logo192.png  in this way
+
+Use Image in website via public folder  <li> <a href="#"><img src="logo192.png" width="40" /></a></li>
+ <li> <a href="#"><img src={myphoto} width="40" /></a></li>  // private Way
+
+ <BrowserRouter>
+               <Routes>
+               <Route path="/" element={
+                <h1> This is HomePage</h1>
+               }/>
+               <Route path="/images" element={
+                <h1> This is images' Page</h1>
+               }/>
+               
+               </Routes>
+               </BrowserRouter> 
+
+
+
+
+
+
+
 
 
