@@ -1,0 +1,19 @@
+[
+    {
+        "label":"Home",
+        "url":"/"
+    },
+    {
+        "label":"Web3",
+        "url":"/web-developement"
+    },
+    {
+        "label":"SoftWare Engineering",
+        "url":"/software-engineering"
+    },
+    {
+        "label":"Blog",
+        "url":"/blog"
+    }
+    
+]

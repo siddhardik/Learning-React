@@ -93,6 +93,8 @@ use className instead of class its raect rule  .Otherwise you will se  error on 
 
 {} called Template Literal
 
+Object Separete File with json extension
+
 Function Pass in Event Not () 
 
 Use BootsTrap  - React Bootstrap website search  =
@@ -107,7 +109,13 @@ animate.css  Website to use Animation
 
 Website link :  https://animate.style/
 
+Pages looks like same in every pages called template 
+Header And Footer are same in every page Then Template
 
+App.js Template    Routing Coding Should be here
+<> </>  Fragement Means Tag Without Name
 
+Bootstrap Css File imported in Template FIle App.js
+But It will work All Other file.
 
 
