@@ -7,6 +7,7 @@ Route
 } from "react-router-dom";
 import Navbar from"./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer.js";
+import Homepage from "./components/Homepage/Homepage.js";
 
 const App=()=>{
     const design =(
@@ -20,7 +21,8 @@ const App=()=>{
                <Routes>
                 {/* Routes will be use there where content will be changing according to click  */}
                <Route path="/" element={
-                <h1> This is HomePage</h1>
+                // <h1> This is HomePage</h1>
+                <Homepage/>
                }/>
                <Route path="/images" element={
                 <h1> This is images' Page</h1>
