@@ -95,7 +95,17 @@ use className instead of class its raect rule  .Otherwise you will se  error on 
 
 Function Pass in Event Not () 
 
+Use BootsTrap  - React Bootstrap website search  =
+https://react-bootstrap.github.io/getting-started/introduction/
+npm install react-bootstrap bootstrap
 
+
+animate.css  Website to use Animation
+
+"animate__animated animate__<animation_Name>" This Portion common for animation
+"animate__infinite"  this class forinfinite animation
+
+Website link :  https://animate.style/
 
 
 

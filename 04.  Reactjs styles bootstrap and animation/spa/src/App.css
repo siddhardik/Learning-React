@@ -1,0 +1,13 @@
+.page{
+    display:flex;
+    /* no need to write width 100% , because flex will do it automatically */
+    justify-content: center;  
+     /* to centre inside child element   */
+    height:1000px;
+}
+
+.container{
+    width:80%;
+    padding:48px 0;
+    background: #f5f5f5;
+}
