@@ -1,0 +1,39 @@
+[
+    {
+        "label":"Home",
+        "url":"/",
+        "dropdown": false
+    },
+    {
+        "label":"Courses",
+        "url":"/",
+        "dropdown": true,
+       
+        "DropDown_List":[
+            {
+                "label":"Web3",
+                "url":"/web-developement"
+                
+            },
+            {
+                "label":"SoftWare Engineering",
+                "url":"/software-engineering"
+                
+            }
+
+        ]
+    },
+    
+    {
+        "label":"Blog",
+        "url":"/blog",
+        "dropdown": false
+    }
+    ,
+    {
+        "label":"Contact Us",
+        "url":"/Contact-us",
+        "dropdown": false
+    }
+    
+]
