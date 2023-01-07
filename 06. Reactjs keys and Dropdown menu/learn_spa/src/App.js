@@ -33,6 +33,14 @@ const App=()=>{
                 <Route exact path="/web-developement" element={
                 <h1> This is web developement's Page</h1>
                }/>
+
+                <Route exact path="/contact-us" element={
+                <h1> CONTACT US Page</h1>
+               }/>
+
+               <Route exact path="/register-now" element={
+                <h1> This is register Now Page</h1>
+               }/>
                
                </Routes>
 

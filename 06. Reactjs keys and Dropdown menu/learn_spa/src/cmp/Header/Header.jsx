@@ -1,3 +1,4 @@
+import "./Header.css";
 import {
     Navbar,
     Container,
@@ -17,7 +18,7 @@ const NormalMenu =(object)=>{
   // console.log("Under Normal Menu" + object);
   const design =(
     <>
-    <Link to ={object.menuInfo.url} className="nav-link" >{object.menuInfo.label}</Link>
+    <Link to ={object.menuInfo.url} className={object.menuInfo.button?"nav-link btn btn-primary text-white":"nav-link"} >{object.menuInfo.label}</Link>
   
     </>
   );
@@ -31,7 +32,7 @@ const DropdownMenu =(object)=>{
       {
 
             object.menuInfo.DropDown_List.map((item)=>{
-              return <NormalMenu menuInfo={item}/>
+              return <NormalMenu menuInfo={item} key ={item.id} />
               
              })
       }
@@ -47,7 +48,10 @@ const Header=()=>{
         <>
         <Navbar bg="light" expand="lg">
         <Container>
-          <Link className="navbar-brand" to="./">{Company_Info.name}</Link>
+          <Link className="navbar-brand" to="./">
+            <img src={Company_Info.logo} alt ="Company Logo" width ="40px" />
+            {Company_Info.name}
+            </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end w-100">
@@ -56,9 +60,9 @@ const Header=()=>{
               Menu.map((data)=>{
                 console.log(data);
                 if(data.dropdown){
-                  return <DropdownMenu menuInfo={data}/>
+                  return <DropdownMenu menuInfo={data} key ={data.id}/>
                 }
-                    return <NormalMenu menuInfo={data}/>
+                    return <NormalMenu menuInfo={data} key ={data.id} />
               })
               // Never Semicolon under Template{} Literals 
              }

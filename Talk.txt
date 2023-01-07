@@ -118,5 +118,7 @@ App.js Template    Routing Coding Should be here
 Bootstrap Css File imported in Template FIle App.js
 But It will work All Other file.
 
- // In json use - wrong use _ between two words 
+ // In json use - wrong use _ between two words
+
+Google fonts import Should be in index.css File . 
 

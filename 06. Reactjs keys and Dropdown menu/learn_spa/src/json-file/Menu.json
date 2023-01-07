@@ -1,23 +1,31 @@
 [
-    {
+    {   
         "label":"Home",
         "url":"/",
-        "dropdown": false
+        "dropdown": false,
+        "id":"key-1",
+        "button":true
     },
     {
         "label":"Courses",
         "url":"/",
         "dropdown": true,
+        "id":"key-2",
+        "button":false,
        
         "DropDown_List":[
             {
                 "label":"Web3",
-                "url":"/web-developement"
+                "url":"/web-developement",
+                "id":"key-3",
+                "button":false
                 
             },
             {
                 "label":"SoftWare Engineering",
-                "url":"/software-engineering"
+                "url":"/software-engineering",
+                "id":"key-4",
+                "button":false
                 
             }
 
@@ -27,13 +35,24 @@
     {
         "label":"Blog",
         "url":"/blog",
-        "dropdown": false
+        "dropdown": false,
+        "id":"key-5",
+        "button":false
     }
     ,
     {
         "label":"Contact Us",
-        "url":"/Contact-us",
-        "dropdown": false
+        "url":"/contact-us",
+        "dropdown": false,
+        "id":"key-6",
+        "button":false
+    }
+    ,{
+        "label": "Register Now",
+        "url":"register-now",
+        "dropdown":false,
+        "id":"key-7",
+        "button" :true
     }
     
 ]
