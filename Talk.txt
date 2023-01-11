@@ -122,3 +122,12 @@ But It will work All Other file.
 
 Google fonts import Should be in index.css File . 
 
+Conatiner Box  It gives page to 70 to 80 % Width but we need Full Width.
+Routes under div not under conatiner.
+
+
+// TO set Icon Popular Library 
+npm i font-awesome
+https://fontawesome.com/v4/cheatsheet/
+
+animate.style To give animation 

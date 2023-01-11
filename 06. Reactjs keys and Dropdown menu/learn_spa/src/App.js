@@ -1,5 +1,6 @@
 import Header from "./cmp/Header/Header";
 import Footer from "./cmp/Footer/Footer";
+import Homepage from "./cmp/Homepage/Homepage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
 BrowserRouter as BR,
@@ -22,7 +23,7 @@ const App=()=>{
         {/* In this box we need Routing Result  */}
          <Routes>
                <Route path="/" element={
-                <h1> This is homePage !</h1>
+                <Homepage />
                }/>
                  <Route exact path="/blog" element={
                  <h2> This is Blogging Page </h2>

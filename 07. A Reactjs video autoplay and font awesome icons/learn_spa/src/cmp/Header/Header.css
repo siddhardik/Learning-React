@@ -1,0 +1,48 @@
+.nav-link,.navbar-brand{
+    font-family: 'Bakbak One', cursive;
+    font-size:18px;
+    margin-left:12px;
+    /* color:blue !important;  to override a value which is defined by bootstrap */    
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(23, 11, 199)  !important  ;
+    font-weight: 900;
+    
+}
+
+#dropdown-container{
+    color:blue;
+    width:220px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.arrow-up{
+           font-size: larger;
+           position:absolute;
+           top:-12px;
+           left:20px;
+           color:white; 
+           animation: bounce; /* referring directly to the animation's @keyframe declaration */
+           animation-duration: 2s; 
+}
+
+@media (max-width: 768px) {
+    .arrow-up{
+        font-size: larger;
+        position:absolute;
+        top:-5px;
+        left:20px;
+        color:white; 
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; 
+}
+
+.navbar-toggler{
+    background:white !important;
+    border-color: antiquewhite;
+}
+
+}
+
