@@ -131,3 +131,9 @@ npm i font-awesome
 https://fontawesome.com/v4/cheatsheet/
 
 animate.style To give animation 
+
+
+//Componenet under the Component is called subcomponent   ,
+ Create Subcomponent of those component those have more complexity and have different parts
+
+// TO fixed NAvbar use "fixed-top" class of bootstrap
